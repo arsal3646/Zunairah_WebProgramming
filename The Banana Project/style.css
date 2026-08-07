@@ -1,39 +1,37 @@
 @import url('https://googleapis.com');
-/* Step 1: Set up the base page theme */
+
 body {
-  background-color: #2484a7;   /* Changes the background from bright white to dark gray */
-  color: #208b82bc;              /* Changes the text from black to clean white */
-  font-family: 'Fredoka', sans-serif;     /* Changes font from typewriter style to a modern look */
+  background-color: #2484a7;   
+  color: #062c44eb;              
+  font-family: 'Fredoka', sans-serif;     
 }
 h1 {
   font-family: 'Fredoka', sans-serif;
-  font-weight: 700;       /* Makes it extra thick and punchy */
-  color: #ffd700;         /* Banana Yellow */
-  letter-spacing: 1px;    /* Spaces the letters out slightly for a clean look */
+  font-weight: 700;       
+  color: #ffd700;      
+  letter-spacing: 1px;    
 }
-/* Step 1: Style the Banner Container */
+
 nav {
-  background-color: #012a20; /* Lighter gray so it pops off the main background */
-  padding: 15px 25px;        /* 15px padding top/bottom, 25px left/right */
-  border-radius: 12px;       /* Gives it smooth, playful rounded corners */
-  display: flex;             /* Lines your links up perfectly in a row */
-  gap: 25px;                 /* Creates an even gap between each link */
-  margin-bottom: 30px;       /* Pushes the content below down so it isn't cramped */
-  border-bottom: 3px solid #ffd700; /* Subtle neon banana-yellow strip underneath */
+  background-color: #012a20; 
+  padding: 15px 25px;        
+  border-radius: 12px;       
+  display: flex;             
+  gap: 26px;                 
+  margin-bottom: 30px;     
+  border-bottom: 4px solid #ffd700; 
 }
 
-/* Step 2: Style the Links Inside the Banner */
 nav a {
-  color: #a7de96;            /* Default color is a clean, neutral light gray */
-  text-decoration: none;     /* Strips away the ugly default browser underline */
-  font-weight: 700;          /* Makes the text nice and thick using Fredoka */
-  font-size: 1.1rem;         /* Makes the text slightly larger for easy clicking */
-  transition: color 0.2s;    /* Smooths out the color change when hovered */
+  color: #a7de96;         
+  text-decoration: none;    
+  font-weight: 700;        
+  font-size: 1.1rem;        
+  transition: color 0.2s;  
 }
 
-/* Step 3: Add the Hover Magic */
 nav a:hover {
-  color: #ffd700;            /* Turns bright banana-yellow when hovered over */
+  color: #ffd700;       
 }
 nav a.active {
   color: #cbad03d3;
