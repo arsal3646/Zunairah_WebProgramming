@@ -5,6 +5,16 @@ body {
   color: #062c44eb;              
   font-family: 'Fredoka', sans-serif;     
 }
+
+textarea {
+  display: inline-block;          
+  padding: 10px;              
+  border-radius: 8px;        
+  border: 1px solid #062c44eb; 
+  font-family: 'Fredoka', sans-serif; 
+  font-size: 32px;  
+  animation : pulse 1.5s infinite;         
+}
 h1 {
   font-family: 'Fredoka', sans-serif;
   font-weight: 700;       
