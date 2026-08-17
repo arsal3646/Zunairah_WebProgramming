@@ -6,7 +6,7 @@ body {
   font-family: 'Fredoka', sans-serif;     
 }
 
-textarea {
+text-box {
   display: inline-block;          
   padding: 10px;              
   border-radius: 8px;        
